@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/a6cec05c88.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <h1>Piedra, Papel o Tijera</h1>
+
+    cantidad de veces a jugar: <input type="text" id="cantidadjuego">
+
+    
+    <div id="opciones">
+        <i class="fa-solid fa-hand-back-fist" onclick="jugar('piedra')"></i>
+        <i class="fa-solid fa-hand" onclick="jugar('papel')"></i>
+        <i class="fa-solid fa-hand-scissors" onclick="jugar('tijera')"></i>
+    </div>
+    <div id="resultado"></div>
+
+    <input onclick="iniciarjuego()" type="button" id="jugar" value="jugar">
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
